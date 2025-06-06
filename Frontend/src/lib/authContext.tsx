@@ -166,7 +166,7 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
           }
         }
       } else {
-        if (location.pathname !== '/login' && location.pathname !== '/register') {
+        if (location.pathname !== '/login' && location.pathname !== '/register' && location.pathname !== '/') {
           navigate('/login');
         }
       }
