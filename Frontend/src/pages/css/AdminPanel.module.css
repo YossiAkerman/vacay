@@ -1,0 +1,186 @@
+.panel {
+  padding: 2rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+  min-height: 100vh;
+}
+
+.panel h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: #2c3e50;
+}
+
+.panel h3 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  color: #34495e;
+}
+
+.form {
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 0.75rem;
+  margin-bottom: 2rem;
+}
+
+.form input,
+.form textarea,
+.form button {
+  padding: 0.6rem;
+  font-size: 0.95rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.form input:focus,
+.form textarea:focus {
+  border-color: #3498db;
+  outline: none;
+}
+
+.form button {
+  background-color: #3498db;
+  color: white;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.form button:hover {
+  background-color: #2980b9;
+}
+
+.tableWrapper {
+  width: 100%;
+  overflow-x: auto;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+}
+
+.vacationTable {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+}
+
+.vacationTable th,
+.vacationTable td {
+  padding: 0.75rem;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+  vertical-align: top;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.vacationTable thead {
+  background-color: #f0f4f8;
+  color: #2c3e50;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.vacationTable tbody tr:hover {
+  background-color: #f9f9f9;
+}
+
+.vacationTable code {
+  font-size: 0.85rem;
+  color: #666;
+  background: #eef1f4;
+  padding: 0.1rem 0.4rem;
+  border-radius: 4px;
+}
+
+.vacationTable input,
+.vacationTable textarea {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0.4rem;
+  font-size: 0.9rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.vacationTable td textarea {
+  resize: vertical;
+  min-height: 60px;
+  white-space: normal;
+}
+
+.vacationTable th:nth-child(1),
+.vacationTable td:nth-child(1) {
+  width: 40px;
+  text-align: center;
+}
+
+.vacationTable th:nth-child(2),
+.vacationTable td:nth-child(2) {
+  width: 120px;
+}
+
+.vacationTable th:nth-child(3),
+.vacationTable td:nth-child(3) {
+  width: 280px;
+  white-space: normal;
+}
+
+.vacationTable th:nth-child(4),
+.vacationTable td:nth-child(4),
+.vacationTable th:nth-child(5),
+.vacationTable td:nth-child(5) {
+  width: 100px;
+}
+
+.vacationTable th:nth-child(6),
+.vacationTable td:nth-child(6) {
+  width: 100px;
+}
+
+.vacationTable th:nth-child(7),
+.vacationTable td:nth-child(7) {
+  width: 130px;
+}
+
+.vacationTable th:nth-child(8),
+.vacationTable td:nth-child(8) {
+  width: 130px;
+  text-align: center;
+  white-space: normal;
+}
+
+.actions {
+  display: flex;
+  flex-direction: row;          
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;             
+}
+
+.actions button {
+  width: auto;                  
+  min-width: 60px;              
+  padding: 0.4rem 0.6rem;
+  font-size: 0.85rem;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  background-color: #f0f0f0;
+  transition: background-color 0.2s ease;
+}
+
+.actions button:hover {
+  background-color: #e0e7ff;
+}
